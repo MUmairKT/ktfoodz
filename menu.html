@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kt Foodz</title>
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/fontawesome.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="/webfonts/beyond_the_mountains-webfont.css" type="text/css" /> -->
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fancybox.css" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!--load all styles -->
+
+    <style>
+        .card-product .img-wrap {
+            border-radius: 3px 3px 0 0;
+            overflow: hidden;
+            position: relative;
+            height: 220px;
+            text-align: center;
+        }
+        
+        .card-product .img-wrap img {
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: cover;
+        }
+        
+        .card-product .info-wrap {
+            overflow: hidden;
+            padding: 15px;
+            border-top: 1px solid #eee;
+        }
+        
+        .card-product .bottom-wrap {
+            padding: 15px;
+            border-top: 1px solid #eee;
+        }
+        
+        .label-rating {
+            margin-right: 10px;
+            color: #333;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        .card-product .price-old {
+            color: #999;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ===================== Navbar start ================== -->
+    <header--->
+        <div class="container-fluid  px-0 align-content-center sticky-top">
+            <nav id="navbar1" class=" flex-wrap  navbar navbar-expand-md px-5 py-3">
+                <a class="navbar-brand py-0" href="#">
+                    <img src="images/logo-white.png" width="150" height="100%" alt="">
+                </a>
+                <button class="navbar-toggler text-white" type="link" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">&#x2630</span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white " href="aboutus.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-white " id="navbarDropdown" role="link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                MENU
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="menu.html">Pizza</a>
+                                <a class="dropdown-item" href="menu.html">Broast</a>
+                                <a class="dropdown-item" href="menu.html">Sandwich</a>
+                                <a class="dropdown-item" href="menu.html">Chinese</a>
+                                <a class="dropdown-item" href="menu.html">Shwarma</a>
+                                <a class="dropdown-item" href="menu.html">Roll</a>
+                                <a class="dropdown-item" href="menu.html">BBQ</a>
+                                <a class="dropdown-item" href="menu.html">Soup </a>
+                                <a class="dropdown-item" href="menu.html">Others</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white " href="contact.html">CONTACT</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="btn orderNowbtn">
+                    <a>ORDER : +92 1234 6456789 </a>
+                </div>
+            </nav>
+        </div>
+
+        </header-->
+
+
+
+        <!-- ===================== Our Story Area ================== -->
+
+        <section id="SectionOurStory" class="story-area text-center center-sm-text pos-relative">
+            <div class="container">
+                <div class="heading mb-3">
+                    <img class="heading-img mt-5" src="images/heading_logo.png" alt="">
+                    <h2 class="font-Kaushan">Our Menu</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <figure class="card card-product">
+                            <div class="img-wrap"><img src="images/menu-1-120x120.jpg"></div>
+                            <figcaption class="info-wrap">
+                                <h4 class="title">Tandoori Pizza</h4>
+                                <p class="desc">Very good pizza</p>
+
+                                <!-- rating-wrap.// -->
+                            </figcaption>
+                            <div class="bottom-wrap">
+                                <a href="" class="btn btn-sm btn-danger float-right">Order Me!</a>
+                                <div class="price-wrap h5">
+                                    <span class="price-new">RS.1280</span> <del class="price-old">RS.1980</del>
+                                </div>
+                                <!-- price-wrap.// -->
+                            </div>
+                            <!-- bottom-wrap.// -->
+                        </figure>
+                    </div>
+                    <!-- col // -->
+                    <div class="col-md-4">
+                        <figure class="card card-product">
+                            <div class="img-wrap"><img src="images/menu-2-120x120.jpg"> </div>
+                            <figcaption class="info-wrap">
+                                <h4 class="title">Tasty Pasta</h4>
+                                <p class="desc">Some small description goes here</p>
+
+                                <!-- rating-wrap.// -->
+                            </figcaption>
+                            <div class="bottom-wrap">
+                                <a href="" class="btn btn-sm btn-danger float-right">Order Me!</a>
+                                <div class="price-wrap h5">
+                                    <span class="price-new">RS.1280</span> <del class="price-old">RS.1980</del>
+                                </div>
+                                <!-- price-wrap.// -->
+                            </div>
+                            <!-- bottom-wrap.// -->
+                        </figure>
+                    </div>
+                    <!-- col // -->
+                    <div class="col-md-4">
+                        <figure class="card card-product">
+                            <div class="img-wrap"><img src="images/menu-4-120x120.jpg"></div>
+                            <figcaption class="info-wrap">
+                                <h4 class="title">Item</h4>
+                                <p class="desc">Some small description goes here</p>
+
+                                <!-- rating-wrap.// -->
+                            </figcaption>
+                            <div class="bottom-wrap">
+                                <a href="" class="btn btn-sm btn-danger float-right">Order Me!</a>
+                                <div class="price-wrap h5">
+                                    <span class="price-new">RS.1280</span> <del class="price-old">RS.1980</del>
+                                </div>
+                                <!-- price-wrap.// -->
+                            </div>
+                            <!-- bottom-wrap.// -->
+                        </figure>
+                    </div>
+                    <!-- col // -->
+                    <!-- col // -->
+                    <div class="col-md-4">
+                        <figure class="card card-product">
+                            <div class="img-wrap"><img src="images/menu-bg-bbq.jpg"></div>
+                            <figcaption class="info-wrap">
+                                <h4 class="title">Item</h4>
+                                <p class="desc">Some small description goes here</p>
+
+                                <!-- rating-wrap.// -->
+                            </figcaption>
+                            <div class="bottom-wrap">
+                                <a href="" class="btn btn-sm btn-danger float-right">Order Me!</a>
+                                <div class="price-wrap h5">
+                                    <span class="price-new">RS.1280</span> <del class="price-old">RS.1980</del>
+                                </div>
+                                <!-- price-wrap.// -->
+                            </div>
+                            <!-- bottom-wrap.// -->
+                        </figure>
+                    </div>
+                    <!-- col // -->
+                    <!-- col // -->
+                    <div class="col-md-4">
+                        <figure class="card card-product">
+                            <div class="img-wrap"><img src="images/menu-bg-bbqfish.jpg"></div>
+                            <figcaption class="info-wrap">
+                                <h4 class="title">Item</h4>
+                                <p class="desc">Some small description goes here</p>
+
+                                <!-- rating-wrap.// -->
+                            </figcaption>
+                            <div class="bottom-wrap">
+                                <a href="" class="btn btn-sm btn-danger float-right">Order Me!</a>
+                                <div class="price-wrap h5">
+                                    <span class="price-new">RS.1280</span> <del class="price-old">RS.1980</del>
+                                </div>
+                                <!-- price-wrap.// -->
+                            </div>
+                            <!-- bottom-wrap.// -->
+                        </figure>
+                    </div>
+                    <!-- col // -->
+                    <!-- col // -->
+                    <div class="col-md-4">
+                        <figure class="card card-product">
+                            <div class="img-wrap"><img src="images/menu-bg-broast.jpg"></div>
+                            <figcaption class="info-wrap">
+                                <h4 class="title">Item</h4>
+                                <p class="desc">Some small description goes here</p>
+
+                                <!-- rating-wrap.// -->
+                            </figcaption>
+                            <div class="bottom-wrap">
+                                <a href="" class="btn btn-sm btn-danger float-right">Order Me!</a>
+                                <div class="price-wrap h5">
+                                    <span class="price-new">RS.1280</span> <del class="price-old">RS.1980</del>
+                                </div>
+                                <!-- price-wrap.// -->
+                            </div>
+                            <!-- bottom-wrap.// -->
+                        </figure>
+                    </div>
+                    <!-- col // -->
+                    <!-- col // -->
+                    <div class="col-md-4">
+                        <figure class="card card-product">
+                            <div class="img-wrap"><img src="images/menu-bg-chinese.jpg"></div>
+                            <figcaption class="info-wrap">
+                                <h4 class="title">Item</h4>
+                                <p class="desc">Some small description goes here</p>
+
+                                <!-- rating-wrap.// -->
+                            </figcaption>
+                            <div class="bottom-wrap">
+                                <a href="" class="btn btn-sm btn-danger float-right">Order Me!</a>
+                                <div class="price-wrap h5">
+                                    <span class="price-new">RS.1280</span> <del class="price-old">RS.1980</del>
+                                </div>
+                                <!-- price-wrap.// -->
+                            </div>
+                            <!-- bottom-wrap.// -->
+                        </figure>
+                    </div>
+                    <!-- col // -->
+                    <!-- col // -->
+                    <div class="col-md-4">
+                        <figure class="card card-product">
+                            <div class="img-wrap"><img src="images/menu-bg-roll.jpg"></div>
+                            <figcaption class="info-wrap">
+                                <h4 class="title">Item</h4>
+                                <p class="desc">Some small description goes here</p>
+
+                                <!-- rating-wrap.// -->
+                            </figcaption>
+                            <div class="bottom-wrap">
+                                <a href="" class="btn btn-sm btn-danger float-right">Order Me!</a>
+                                <div class="price-wrap h5">
+                                    <span class="price-new">RS.1280</span> <del class="price-old">RS.1980</del>
+                                </div>
+                                <!-- price-wrap.// -->
+                            </div>
+                            <!-- bottom-wrap.// -->
+                        </figure>
+                    </div>
+                    <!-- col // -->
+                    <!-- col // -->
+                    <div class="col-md-4">
+                        <figure class="card card-product">
+                            <div class="img-wrap"><img src="images/menu-bg-sandwich.jpg"></div>
+                            <figcaption class="info-wrap">
+                                <h4 class="title">Item</h4>
+                                <p class="desc">Some small description goes here</p>
+
+                                <!-- rating-wrap.// -->
+                            </figcaption>
+                            <div class="bottom-wrap">
+                                <a href="" class="btn btn-sm btn-danger float-right">Order Me!</a>
+                                <div class="price-wrap h5">
+                                    <span class="price-new">RS.1280</span> <del class="price-old">RS.1980</del>
+                                </div>
+                                <!-- price-wrap.// -->
+                            </div>
+                            <!-- bottom-wrap.// -->
+                        </figure>
+                    </div>
+                    <!-- col // -->
+                    <!-- col // -->
+                    <div class="col-md-4">
+                        <figure class="card card-product">
+                            <div class="img-wrap"><img src="images/menu-bg-shwarma.jpg"></div>
+                            <figcaption class="info-wrap">
+                                <h4 class="title">Item</h4>
+                                <p class="desc">Some small description goes here</p>
+
+                                <!-- rating-wrap.// -->
+                            </figcaption>
+                            <div class="bottom-wrap">
+                                <a href="" class="btn btn-sm btn-danger float-right">Order Me!</a>
+                                <div class="price-wrap h5">
+                                    <span class="price-new">RS.1280</span> <del class="price-old">RS.1980</del>
+                                </div>
+                                <!-- price-wrap.// -->
+                            </div>
+                            <!-- bottom-wrap.// -->
+                        </figure>
+                    </div>
+                    <!-- col // -->
+                    <!-- col // -->
+                    <div class="col-md-4">
+                        <figure class="card card-product">
+                            <div class="img-wrap"><img src="images/menu-bg-soup.jpg"></div>
+                            <figcaption class="info-wrap">
+                                <h4 class="title">Item</h4>
+                                <p class="desc">Some small description goes here</p>
+
+                                <!-- rating-wrap.// -->
+                            </figcaption>
+                            <div class="bottom-wrap">
+                                <a href="" class="btn btn-sm btn-danger float-right">Order Me!</a>
+                                <div class="price-wrap h5">
+                                    <span class="price-new">RS.1280</span> <del class="price-old">RS.1980</del>
+                                </div>
+                                <!-- price-wrap.// -->
+                            </div>
+                            <!-- bottom-wrap.// -->
+                        </figure>
+                    </div>
+                    <!-- col // -->
+                    <!-- col // -->
+                    <div class="col-md-4">
+                        <figure class="card card-product">
+                            <div class="img-wrap"><img src="images/menu-7-120x120.jpg"></div>
+                            <figcaption class="info-wrap">
+                                <h4 class="title">Item</h4>
+                                <p class="desc">Some small description goes here</p>
+
+                                <!-- rating-wrap.// -->
+                            </figcaption>
+                            <div class="bottom-wrap">
+                                <a href="" class="btn btn-sm btn-danger float-right">Order Me!</a>
+                                <div class="price-wrap h5">
+                                    <span class="price-new">RS.1280</span> <del class="price-old">RS.1980</del>
+                                </div>
+                                <!-- price-wrap.// -->
+                            </div>
+                            <!-- bottom-wrap.// -->
+                        </figure>
+                    </div>
+                    <!-- col // -->
+                </div>
+                <!-- row.// -->
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </section>
+
+
+
+
+        <!-- ===================== footer  ================== -->
+        <footer id="ContactUs">
+            <div class="container-fluid">
+                <div class="row bg-danger contactAddressText justify-content-around">
+                    <div class="col-lg-3 col-md-5 col-sm-12 mx-3 p-2">
+                        <div class="contactAddressHeader py-2">
+                            Contact Address
+                        </div>
+                        <address>
+                            <p class="py-2">
+                                Kt Foodz,Main Abc Chowrangi Karachi, Pakistan
+                            </p>
+                            <p>
+                                <i class="fa fa-phone mr-3"></i>
+                                UAN: 111-111-111
+                            </p>                            
+                            <p>
+                                <i class="fa fa-phone mr-3"></i>
+                                CELL: 92-123-456789
+                            </p>                           
+                            <p>
+                                <i class="fa fa-envelope mr-3"></i>
+                                info@ktfoodz.com
+                            </p>
+                        </address>
+                    </div>
+                    <div class="col-lg-3 col-md-5 col-sm-12 mx-3 p-2">
+                        <div class="contactAddressHeader py-2">
+                            Contact with us
+                        </div>
+                        <ul class="d-flex">
+                            <li class="p-2 h3">
+                                <a href="https://www.facebook.com"><i
+                                        class="fab fa-facebook text-white"></i></a>
+                            </li>
+                            <li class="p-2 h3">
+                                <a href="https://www.twitter.com"><i
+                                        class="fab fa-twitter text-white"></i></a>
+                            </li>
+                            <li class="p-2 h3">
+                                <a href="https://www.instagram.com"><i
+                                        class="fab fa-instagram text-white"></i></a>
+                            </li>
+                            <li class="p-2 h3">
+                                <a href="https://www.youtube.com"><i
+                                        class="fab fa-youtube text-white"></i></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="mycountText">
+                        Contact Address
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="mycountText">
+                        Contact Address
+                    </div>
+                </div> -->
+                </div>
+            </div>
+            <div class="text-white text-center bg-dark ">
+                <p class="ml-5 small">
+                    Copyright © 2020 Umair kt @ kt Foodz
+                </p>
+            </div>
+        </footer>
+        <!-- <h1 class="text-center text-primary text-capitalize">this iis testing <i class="fab fa-youtube"></i></h1> -->
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+        <script src="js/fancybox.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/custom.js">
+        </script>
+</body>
+
+</html>
