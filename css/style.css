@@ -330,6 +330,52 @@
       background-color: rgb(248, 70, 70) !important;
       color: white;
   }
+
+  .card-product .img-wrap {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+    position: relative;
+    height: 220px;
+    text-align: center;
+}
+
+.card-product .img-wrap img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.card-product .info-wrap {
+    overflow: hidden;
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+.card-product .bottom-wrap {
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+.card-product .desc{
+    height: 50px;
+    overflow: hidden;
+    font-size: small;
+    color: #888888;
+    margin-bottom: 0.2rem;
+}
+
+.label-rating {
+    margin-right: 10px;
+    color: #333;
+    display: inline-block;
+    vertical-align: middle;
+}
+.card-product .price-wrap{
+    padding-top: 0.3rem;
+}
+.card-product .price-old {
+    color: #999;
+}
   /* Small devices (landscape phones, less than 768px) */
   
   @media (max-width: 767.98px) {
